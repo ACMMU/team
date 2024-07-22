@@ -41,7 +41,26 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
+footer section#contacts {
+    margin-bottom: 1em;
+}
+
+footer section#contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer section#contacts ul li {
+    display: inline;
+    margin: 0 0.5em;
+}
+
+footer section#contacts ul li a {
+    color: #fff;
+    text-decoration: none;
 }
